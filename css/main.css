@@ -3,11 +3,6 @@ body {
   font-family: sans-serif;
 }
 
-/*Definiendo lista de enlaces*/
-nav {
-
-}
-
 /*Definiendo lineacion ,tipo de lista sin viñeta y interlineado */
 ul {
   list-style: none;
