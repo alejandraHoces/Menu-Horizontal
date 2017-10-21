@@ -1,0 +1,37 @@
+/*Definiendo tipo de letra*/
+body {
+  font-family: sans-serif;
+}
+
+/*Definiendo lista de enlaces*/
+nav {
+
+}
+
+/*Definiendo lineacion ,tipo de lista sin viñeta y interlineado */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+  background-color: black;
+  overflow: auto;
+
+}
+/*definiendo una linea en la lista realizada y el fondo de la misma*/
+li {
+  width: 100px;
+  float: left;
+}
+/*Definiendo el contenido a tipo bloque,quitando el subrayado al link,dandole color a la letra*/
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+/*Seleccionando y aplicando un estilo al enlace cuando lo coloque sobre él*/
+a:hover {
+  background: gold;
+  color:red;
+}
